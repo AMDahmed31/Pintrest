@@ -1,4 +1,4 @@
-const axios = require('axios');
+const axios = require('axios'); // تم تصحيح حرف الـ c
 
 export default async function handler(req, res) {
     const { q } = req.query;
